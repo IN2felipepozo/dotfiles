@@ -10,24 +10,28 @@ if brew doctor; then
   echo 'Hide /opt'
   chflags hidden /opt
   echo 'Installing apps...'
-  brew cask install alfred
-  brew cask install appcleaner
-  brew cask install arq
-  brew cask install balsamiq-mockups
-  brew cask install carbon-copy-cloner
-  brew cask install divvy
-  brew cask install dropbox
-  brew cask install flux
-  brew cask install github
-  brew cask install google-chrome
-  brew cask install google-hangouts
-  brew cask install harvest
-  brew cask install imageoptim
-  brew cask install licecap
-  brew cask install multibit
-  brew cask install onepassword
-  brew cask install virtualbox
-  brew cask install vlc
+  brew cask install google-chrome 
+  brew cask install google-drive 
+  brew cask install google-notifier 
+  brew cask install android-file-transfer 
+  brew cask install cyberduck 
+  brew cask install java 
+  brew cask install phpstorm 
+  brew cask install sequel-pro 
+  brew cask install textmate 
+  brew cask install virtualbox 
+  brew cask install atom 
+  brew cask install github 
+  brew cask install launchrocket 
+  brew cask install robomongo 
+  brew cask install spotify 
+  brew cask install vagrant 
+  brew cask install iterm2 
+  brew cask install telegram 
+  brew cask install the-unarchiver 
+  brew cask install clipmenu 
+  brew cask install cakebrew 
+  brew cask install vlc 
   # paparazzi vagrant slack the-unarchiver daisydisk fluid gpgtools imagealpha
   # transmission fluid kindle send-to-kindle marked sketch skype subtitles
   # teamviewer torbrowserbundle skype
